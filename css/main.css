@@ -1,0 +1,222 @@
+body {
+  margin:0;
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  max-width: 1400px;
+  -webkit-will-change: -webkit-transform;
+  -moz-will-change: -moz-transform;
+  will-change: transform;
+}
+
+
+#layer1 {
+  -webkit-animation: layerMove1NoRotate 35s ease-in-out infinite;
+  -moz-animation: layerMove1NoRotate 35s ease-in-out infinite;
+  -ms-animation: layerMove1NoRotate 35s ease-in-out infinite;
+  -o-animation: layerMove1NoRotate 35s ease-in-out infinite;
+  animation: layerMove1NoRotate 35s ease-in-out infinite;
+}
+
+#layer2 {
+  -webkit-animation: layerMove2NoRotate 30s ease-in-out infinite;
+  -moz-animation: layerMove2NoRotate 30s ease-in-out infinite;
+  -ms-animation: layerMove2NoRotate 30s ease-in-out infinite;
+  -o-animation: layerMove2NoRotate 30s ease-in-out infinite;
+  -webkit-animation: layerMove2NoRotate 30s ease-in-out infinite;
+}
+
+#layer3 {
+  -webkit-animation: layerMove3 36s ease-in-out infinite;
+  -moz-animation: layerMove3 36s ease-in-out infinite;
+  -ms-animation: layerMove3 36s ease-in-out infinite;
+  -o-animation: layerMove3 36s ease-in-out infinite;
+  animation: layerMove3 36s ease-in-out infinite;
+}
+
+/*#main #header.active*/ #layer4 {
+  -webkit-animation: layerMove1 33s ease-in-out infinite;
+  -moz-animation: layerMove1 33s ease-in-out infinite;
+  -ms-animation: layerMove1 33s ease-in-out infinite;
+  -o-animation: layerMove1 33s ease-in-out infinite;
+  animation: layerMove1 33s ease-in-out infinite;
+}
+
+#layer5 {
+  -webkit-animation: layerMove2 34s ease-in-out infinite;
+  -moz-animation: layerMove2 34s ease-in-out infinite;
+  -ms-animation: layerMove2 34s ease-in-out infinite;
+  -o-animation: layerMove2 34s ease-in-out infinite;
+  animation: layerMove2 34s ease-in-out infinite;
+}
+
+#layer6 {
+  -webkit-animation: layerMove3 35s ease-in-out infinite;
+  -moz-animation: layerMove3 35s ease-in-out infinite;
+  -ms-animation: layerMove3 35s ease-in-out infinite;
+  -o-animation: layerMove3 35s ease-in-out infinite;
+  animation: layerMove3 35s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes layerMove1NoRotate {
+
+  0% {
+    -webkit-transform: translate(0px, 0px);
+  }
+
+
+  20% {
+    -webkit-transform: translate(10px, -10px);
+  }
+
+
+  40% {
+    -webkit-transform: translate(-10px, 10px);
+  }
+
+
+  60% {
+    -webkit-transform: translate(-10px, 10px);
+  }
+
+
+  80% {
+    -webkit-transform: translate(10px, -10px);
+  }
+
+
+  100% {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+
+@-webkit-keyframes layerMove2NoRotate {
+
+  0% {
+    -webkit-transform: translate(0px, 0px);
+  }
+
+
+  20% {
+    -webkit-transform: translate(10px, 10px);
+  }
+
+
+  40% {
+    -webkit-transform: translate(5px, -10px);
+  }
+
+
+  60% {
+    -webkit-transform: translate(10px, -15px);
+  }
+
+
+  80% {
+    -webkit-transform: translate(-10px, 10px);
+  }
+
+
+  100% {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+
+@-webkit-keyframes layerMove1 {
+
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+
+
+  22% {
+    -webkit-transform: translate(15px, -10px) rotate(-0.6deg);
+  }
+
+
+  42% {
+    -webkit-transform: translate(-10px, 15px) rotate(0.4deg);
+  }
+
+
+  62% {
+    -webkit-transform: translate(-15px, 15px) rotate(-0.8deg);
+  }
+
+
+  80% {
+    -webkit-transform: translate(15px, -15px) rotate(0.6deg);
+  }
+
+
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes layerMove2 {
+
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+
+
+  20% {
+    -webkit-transform: translate(15px, 10px) rotate(0.9deg);
+  }
+
+
+  40% {
+    -webkit-transform: translate(10px, -20px) rotate(-1.5deg);
+  }
+
+
+  60% {
+    -webkit-transform: translate(15px, -10px) rotate(0.8deg);
+  }
+
+
+  80% {
+    -webkit-transform: translate(-15px, 10px) rotate(-0.6deg);
+  }
+
+
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes layerMove3 {
+
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+
+
+  25% {
+    -webkit-transform: translate(10px, -10px) rotate(0.5deg);
+  }
+
+
+  45% {
+    -webkit-transform: translate(5px, -10px) rotate(-0.4deg);
+  }
+
+
+  65% {
+    -webkit-transform: translate(10px, -5px) rotate(0.6deg);
+  }
+
+
+  80% {
+    -webkit-transform: translate(5px, 5px) rotate(-0.3deg);
+  }
+
+
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+}
